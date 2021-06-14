@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+system('clear')
 RSpec.describe 'songs/index' do
   before do
     Artist.destroy_all
